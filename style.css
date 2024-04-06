@@ -1,9 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-repeat: repeat;
-    color: peachpuff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-size: cover;
+
+
 }
 
 .container {
@@ -12,11 +13,21 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding-left: 45%;
+    margin-top: -80px;
+
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
+    font-size: 7rem;
+    align-items: center;
+    color: whitesmoke;
+    font-style:oblique;
+    margin-bottom: -2%;
+}
+
+h2 {
+    color: white;
 }
 .SEARCH {
     display: flex;
@@ -33,4 +44,37 @@ h1 {
     border-radius: 20px;
     margin-right: 1rem;
     width: 300px;
+}
+.btnContainer {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+     flex-wrap: wrap; 
+    padding: 30px; 
+}
+
+.gifButton {
+    flex-basis: 30%; 
+    margin: 10px; 
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer; 
+  }
+
+  .gifButton img {
+    width: auto; 
+    height: 100px; 
+    margin-bottom: 5px; 
+  }
+  
+  .gifButton span {
+    font-size: 25px; 
+    color: black; 
+  }
+
+
+.btn:hover {
+    opacity: 0.8; 
 }

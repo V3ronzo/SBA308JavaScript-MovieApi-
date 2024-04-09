@@ -1,5 +1,4 @@
 export async function fetchMovieYears() {
-    const apiKey = '439eba48';
     const url = `http://www.omdbapi.com/?apikey=439eba48&y`;
     const options = { method: 'GET' };
   
@@ -18,7 +17,6 @@ export async function fetchMovieYears() {
   }
 
   export async function fetchMovieTitle() {
-    const apiKey = '';
     const url = `http://www.omdbapi.com/?apikey=439eba48&s`;
     const options = { method: 'GET' };
   
@@ -36,5 +34,5 @@ export async function fetchMovieYears() {
     }
   }
 
-  
+
 

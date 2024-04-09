@@ -46,5 +46,25 @@ h2 {
     width: 300px;
 }
 
+.content-box {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: none;
+  }
+  
+  .content-box.show {
+    display: block;
+  }
+  
+  .content-box-content {
+    color: white;
+  }
+
 
 

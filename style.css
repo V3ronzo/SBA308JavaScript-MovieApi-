@@ -31,50 +31,20 @@ h2 {
 }
 .SEARCH {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+    gap: 10px;
 
 }
 
 .searchBar{
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
+    padding: 10px;
+    font-size: 16px;
     border: none;
-    border-radius: 20px;
-    margin-right: 1rem;
+    border-radius: 4px;
     width: 300px;
 }
-.btnContainer {
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-     flex-wrap: wrap; 
-    padding: 30px; 
-}
-
-.gifButton {
-    flex-basis: 30%; 
-    margin: 10px; 
-    padding: 10px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer; 
-  }
-
-  .gifButton img {
-    width: auto; 
-    height: 100px; 
-    margin-bottom: 5px; 
-  }
-  
-  .gifButton span {
-    font-size: 25px; 
-    color: black; 
-  }
 
 
-.btn:hover {
-    opacity: 0.8; 
-}
+
